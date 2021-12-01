@@ -30,15 +30,14 @@ export default {
   grid-template-columns: repeat(4, 1fr);
   border-radius: 10px;
   overflow: hidden;
-  item {
-    padding: 1rem 0.5rem;
-    background-color: var(--background-card);
-    text-align: center;
-
-    &:hover {
-      color: var(--text-orange);
-      cursor: pointer;
-    }
+}
+.item {
+  /* padding: 1rem 0.5rem;
+  background-color: var(--background-card);
+  text-align: center;*/
+  cursor: pointer;
+  &:hover {
+    color: var(--text-orange);
   }
 }
 </style>
